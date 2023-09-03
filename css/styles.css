@@ -1,0 +1,188 @@
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+   }
+   a {
+    text-decoration: none;
+   }
+   ul {
+       list-style-type: none;
+   }
+   button {
+       font-family: inherit;
+   }
+
+.logo {
+    color: #4D5AE5;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
+        
+        }
+        
+.studio {
+    color: #2E2F42;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1,17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.listheader {
+    color:#2E2F42;
+        font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+}
+.listheader:hover {
+    color: #404bbf;
+}
+.listheader:focus {
+    color: #404bbf;
+}
+.adress{
+    font-style: normal;
+}
+.adresslist {
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        font-style: normal;
+}
+.adresslist:hover{
+    color: #404bbf;
+}
+.adresslist:focus {
+    color: #404bbf;
+}
+/* HERO SECTION */
+.herosection {
+background-color: #2E2F42;
+}
+.herotitle {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+}
+.herobutton {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.herobutton:hover {
+    background-color: #404BBF;
+
+}
+.herobutton:focus {
+    background-color: #404BBF;
+}
+.tehnologysection {
+    background: #FFF;
+}
+.tehnology_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+} 
+.tehnology_text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* END OF TEHNOLOGY section */
+/* Start Personal sec */
+.personal-section {
+    background-color: #F4F4FD;
+}
+.personal-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.personal-backgraund {
+    background-color: #FFFFFF;
+}
+.personal-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* END PERSONAL START PORTFOLIO */
+.portfoliomain-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.portfoliosecondtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.footertext {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+/* END PORTFOLIO */
+/* FOOTER */
+.footer-backgraund {
+    background-color: #2e2f42;
+}
+.logo-footer {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.studio-footer {
+    color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1, 17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
