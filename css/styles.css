@@ -118,7 +118,7 @@ body {
     gap: 40px;
 
 }
-.adresslist {
+.adresslisttext {
    
     color: #434455;
         font-size: 16px;
@@ -215,6 +215,12 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 /* Start Personal sec */
 .personal-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.personal-list {
+display: flex;
+gap: 24px;
+
 }
 .personal-title {
     font-size: 36px;
@@ -223,16 +229,38 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 
 }
 .personal-backgraund {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .personal-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.personal-info {
+    padding: 32px 0;
+}
+.personal_title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        text-align: center;
+        margin-bottom: 8px;
+}
+.personal_text {
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
 /* END PERSONAL START PORTFOLIO */
 .portfoliomain-title {
         font-size: 36px;
