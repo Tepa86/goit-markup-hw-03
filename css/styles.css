@@ -39,11 +39,8 @@ body {
 .header {
     border-bottom: 1px solid #e7e9fc
 }
-.header-inner {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
+
+
 
 .heder-nav {
     display: flex;
