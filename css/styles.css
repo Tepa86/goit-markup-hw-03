@@ -51,7 +51,7 @@ body {
 .heder-nav {
     display: flex;
     align-items: center;
-    gap: 76px;
+
 }
 .nav-list {
     display: flex;
@@ -111,6 +111,7 @@ body {
     display: flex;
         align-items: center;
     font-style: normal;
+    margin-left: auto;
 
 }
 .adress-list {
@@ -147,7 +148,8 @@ padding: 188px 0;
         line-height: 1.07;
         letter-spacing: 1.12px;
         max-width: 496px;
-        margin-left: 472px;
+       margin-right: auto;
+       margin-left: auto;
 }
 .herobutton {
     background-color: #4D5AE5;
@@ -163,8 +165,8 @@ padding: 188px 0;
     display: block;
     border-radius: 4px;
     margin-top: 48px;
-   margin-bottom: 188px;
-  margin-left: 636px;
+  margin-right: auto;
+  margin-left: auto;
 
     
 
