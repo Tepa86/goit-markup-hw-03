@@ -31,7 +31,6 @@ body {
        font-family: inherit;
    }
    .container {
-    display: flex;
     width: 1158px;
        margin: 0 auto;
     padding: 0 15px
@@ -61,6 +60,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    margin-right: 76px;
     color: #4D5AE5;
         font-size: 18px;
         font-style: normal;
@@ -87,7 +87,7 @@ body {
 
 .listheader {
     display: inline-block;
-    padding: 24px 0 24px;
+    padding: 24px 0;
     color:#2E2F42;
         font-family: Roboto;
             font-size: 16px;
@@ -108,6 +108,11 @@ body {
     font-style: normal;
 
 }
+.adress-list {
+    display: flex;
+    gap: 40px;
+
+}
 .adresslist {
    
     color: #434455;
@@ -126,6 +131,7 @@ body {
 /* HERO SECTION */
 .herosection {
 background-color: #2E2F42;
+padding: 188px 0;
 }
 .herotitle {
     color: #FFF;
@@ -135,6 +141,7 @@ background-color: #2E2F42;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 1.12px;
+        max-width: 496px;
 }
 .herobutton {
     background-color: #4D5AE5;
@@ -144,6 +151,13 @@ background-color: #2E2F42;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+   margin-bottom: 188px;
+    
 
 }
 .herobutton:hover {
