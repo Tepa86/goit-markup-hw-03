@@ -31,10 +31,15 @@ body {
        font-family: inherit;
    }
    .container {
-    display: flex;
+    
     width: 1158px;
        margin: 0 auto;
     padding: 0 15px
+   }
+   .conteiner-header {
+    display: flex;
+    
+
    }
 /* heder */
 .header {
