@@ -60,7 +60,6 @@ body {
 .adress-list {
     display: flex;
     gap: 40px;
-    margin-left: 200px;
 }
 .logo {
     display: flex;
